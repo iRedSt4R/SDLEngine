@@ -1,0 +1,10 @@
+^C:\WORKSPACE_NOAV\GIT\SIMBED\BUILD\CMAKEFILES\0AA64D99A564B693BA7BB9F45DEB0421\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/workspace_noAV/Git/SimBed -BC:/workspace_noAV/Git/SimBed/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/workspace_noAV/Git/SimBed/Build/SimBed.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

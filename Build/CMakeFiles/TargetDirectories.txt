@@ -1,0 +1,4 @@
+C:/workspace_noAV/Git/SimBed/Build/CMakeFiles/ALL_BUILD.dir
+C:/workspace_noAV/Git/SimBed/Build/CMakeFiles/ZERO_CHECK.dir
+C:/workspace_noAV/Git/SimBed/Build/Source/SDLEngine/CMakeFiles/SDLEngine.dir
+C:/workspace_noAV/Git/SimBed/Build/Source/Sandbox/CMakeFiles/Sandbox.dir

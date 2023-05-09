@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\workspace_noAV\Git\SimBed\Source\Sandbox\Source\Sandbox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace_noAV\Git\SimBed\Source\Sandbox\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1A7148AE-DF0D-3F47-9F3D-B8B34F3C173B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

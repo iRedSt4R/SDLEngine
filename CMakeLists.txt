@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 3.13)
+
+# CMake Settings
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+set(PROJECT_NAME "SimBed")
+set(BUILD_FOLDER_NAME "Build")
+
+# Project
+project (${PROJECT_NAME})
+
+add_compile_options(/MP)
+
+#set(CMAKE_CXX_STANDARD 20)
+#set(CMAKE_CXX_STANDARD_REQUIRED ON)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
+
+# Main Dirs
+set(ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
+set(THIRD_PARTY_LIB_DIR "${ROOT_DIR}/ThirdParty")
+set(SOURCE_DIR "${ROOT_DIR}/Source")
+
+# Engine Dir
+set(ENGINE_SRC_DIR "${SOURCE_DIR}/SDLEngine")
+set(ENGINE_OUTPUT_DIR "${ROOT_SLN_DIR}/Build/Libs")
+set(ENGINE_LIBRARY_NAME "SDLEngine")
+
+# Game Dir
+set(GAME_SRC_DIR "${SOURCE_DIR}/Game")
+set(GAME_OUTPUT_DIR "${ROOT_SLN_DIR}/Build/Libs")
+set(GAME_LIBRARY_NAME "SimGame")
+
+# Third-Party directories
+
+# SDL2
+set(TP_SDL2_INCLUDE_DIR "${THIRD_PARTY_LIB_DIR}/SDL2/Include")
+set(TP_SDL2_LIB_DIR "${THIRD_PARTY_LIB_DIR}/SDL2/Lib")
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Bin")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Bin")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Bin")
+
+# Sources
+add_subdirectory(Source)

@@ -1,0 +1,6 @@
+#pragma once
+
+#define BOX2D_METERS_SCALING 30.f
+
+#define CFG_WINDOW_WIDTH 800
+#define CFG_WINDOW_HEIGHT 600

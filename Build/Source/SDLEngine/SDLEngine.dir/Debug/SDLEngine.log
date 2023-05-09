@@ -1,0 +1,3 @@
+﻿  SDLApp.cpp
+C:\workspace_noAV\Git\SimBed\Source\SDLEngine\Source\Core\SDLApp.cpp(87,87): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  SDLEngine.vcxproj -> C:\workspace_noAV\Git\SimBed\Bin\Debug\SDLEngine.lib
